@@ -27,19 +27,25 @@ Cosmos CLI is a command-line interface application designed for searching and re
 git clone https://github.com/your-repository/cosmos_cli.git
 ```
 
-2. Navigate to the project directory:
+2. Setup environment variables (from [N2YO API](https://www.n2yo.com/api/))
+
+```bash
+echo "N2YO_API_KEY=<YOUR KEY>" > .env
+```
+
+3. Navigate to the project directory:
 
 ```bash
 cd cosmos_cli
 ```
 
-3. Build the project using Cargo:
+4. Build the project using Cargo:
 
 ```bash
 cargo build --release
 ```
 
-4. Run the application:
+5. Run the application:
 
 ```bash
 cargo run
