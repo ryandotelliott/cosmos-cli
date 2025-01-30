@@ -55,30 +55,6 @@ cargo run
 
 After running the application, follow the on-screen prompts to search for satellites and view detailed information about them.
 
-## Dependencies
-
-Cosmos CLI uses several crates to function properly:
-
-- `reqwest` for HTTP requests.
-- `tokio` for asynchronous runtime.
-- `serde` and `serde_json` for serialization and deserialization.
-- `chrono` for date and time functionality.
-- `crossterm`, `dialoguer`, and `indicatif` for CLI interface and progress indication.
-- `clearscreen` for clearing the terminal screen.
-- `image` for image processing.
-- `sgp4` for satellite tracking.
-- `dotenvy` for loading environment variables.
-
-See `Cargo.toml` for specific versions and additional details.
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit pull requests or open issues to suggest improvements or add new features.
-
-## License
-
-Specify your license here. If not specified, it's recommended to choose an open-source license suitable for your project.
-
 ## Acknowledgments
 
 Thanks to all the contributors and the Rust community for the support and libraries that made this project possible.
