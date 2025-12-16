@@ -1,6 +1,9 @@
-# README for Cosmos CLI
+# Cosmos CLI
 
-_README generated using Cursor because I am lazy_
+## Preview
+https://github.com/user-attachments/assets/7d568fe8-9564-4a80-a151-6def157bf91f
+
+
 
 ## Overview
 
